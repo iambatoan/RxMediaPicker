@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "RxMediaPicker_2.0"
+  s.name         = "RxMediaPicker"
   s.version      = "2.0.0"
   s.summary      = "A reactive wrapper built around UIImagePickerController. Support RxSwift 5."
   s.homepage     = "https://github.com/iambatoan/RxMediaPicker"
@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/iambatoan/RxMediaPicker.git', :tag => s.version }
   s.source_files = "RxMediaPicker/*.swift"
   s.requires_arc = true
-  s.dependency "RxSwift"
+  s.dependency "RxSwift", "~> 5.0.0"
 end
